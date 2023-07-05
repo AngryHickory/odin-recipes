@@ -5,6 +5,14 @@ body {
 
 /* TEXT */
 
+header {
+    margin-bottom: 4rem;
+    padding: 2rem 0;
+    background-color: hsl(29, 51%, 40%);
+    border-bottom: 4px solid hsl(32, 80%, 16%);
+    color: hsl(36, 73%, 24%);
+  }
+
 .head {
     text-align: center;
 }
@@ -12,11 +20,17 @@ body {
 h1 {
     text-align: center;
     border: 2px black solid;
+    background-color: hsl(29, 51%, 40%);
 }
 
 h2 {
     margin-bottom: 15px;
     margin-top: 50px;
+}
+
+.header {
+    border: none;
+    font-size: xx-large;
 }
 
 #recipelist {
