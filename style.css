@@ -1,7 +1,61 @@
+body {
+    background-color: rgb(243, 212, 170);
+    font-family: "Courier New", monospace;
+}
+
+/* TEXT */
+
 .head {
     text-align: center;
 }
 
-.body {
+h1 {
     text-align: center;
+    border: 2px black solid;
+}
+
+h2 {
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+
+#recipelist {
+    line-height: 2;
+    text-align: center;
+    list-style: none;
+}
+
+#recipelist li {
+    display: inline;
+    padding: 20px;
+}
+
+/* IMAGES */
+
+#alfimg {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    width: 600px;
+}
+
+#chowimg {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    width: 700px;
+}
+
+#partyimg {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    width: 900px;
+}
+
+#cookbookimg {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    width: 1100px;
 }
