@@ -3,15 +3,15 @@ body {
     font-family: "Courier New", monospace;
 }
 
-/* TEXT */
-
 header {
     margin-bottom: 4rem;
     padding: 2rem 0;
-    background-color: hsl(29, 51%, 40%);
+    background-color: hsl(29, 48%, 17%);
     border-bottom: 4px solid hsl(32, 80%, 16%);
-    color: hsl(36, 73%, 24%);
+    color: hsla(34, 75%, 69%, 0.781);
   }
+
+/* TEXT */
 
 .head {
     text-align: center;
@@ -20,7 +20,8 @@ header {
 h1 {
     text-align: center;
     border: 2px black solid;
-    background-color: hsl(29, 51%, 40%);
+    background-color: hsl(29, 48%, 17%);
+    color: hsla(34, 75%, 69%, 0.781)
 }
 
 h2 {
