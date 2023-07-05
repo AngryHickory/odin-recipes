@@ -1,4 +1,4 @@
-This is my first project for "The Odin Project".
-The purpose of this project is to create a website for recipes.
-It will contain links and images.
-Upon completion, this project will demonstrate my early coding skills. 
+<p>This is my first project for "The Odin Project".</p>
+<p>The purpose of this project is to create a website for recipes.</p>
+<p>It will contain links and images.</p>
+<p>Upon completion, this project will be a demonstration of the skills learned in the Foundation course.</p>
