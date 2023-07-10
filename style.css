@@ -9,6 +9,7 @@ body {
     border-right: 5px double rgb(184, 157, 123);
     border-bottom: 5px double rgb(184, 157, 123);
     border-left: 5px double rgb(184, 157, 123);
+    padding: 5px 5px;
 }
 
 header {
