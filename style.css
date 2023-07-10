@@ -13,6 +13,7 @@ body {
 }
 
 header {
+    font-style: oblique;
     margin-bottom: 4rem;
     padding: 2rem 0;
     background-color: hsl(29, 48%, 17%);
@@ -49,6 +50,9 @@ h2 {
     width: 250px;
     margin: 2px auto;
     color: #333333;
+    background-color: rgb(243, 212, 170);
+    font-family: "Courier New", monospace;
+    font-size: 17px;
     padding: 2px 6px 2px 6px;
     border-top: 3px double #333333;
     border-right: 3px double #333333;
@@ -64,6 +68,9 @@ h2 {
     width: 250px;
     margin: 2px auto;
     color: #333333;
+    background-color: rgb(243, 212, 170);
+    font-family: "Courier New", monospace;
+    font-size: 17px;
     padding: 2px 6px 2px 6px;
     border-top: 3px double #333333;
     border-right: 3px double #333333;
@@ -79,6 +86,9 @@ h2 {
     width: 250px;
     margin: 2px auto;
     color: #333333;
+    background-color: rgb(243, 212, 170);
+    font-family: "Courier New", monospace;
+    font-size: 17px;
     padding: 2px 6px 2px 6px;
     border-top: 3px double #333333;
     border-right: 3px double #333333;
