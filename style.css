@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box
+}
+
 body {
     background-color: rgb(243, 212, 170);
     font-family: "Courier New", monospace;
@@ -34,15 +38,61 @@ h2 {
     font-size: xx-large;
 }
 
-#recipelist {
-    line-height: 2;
+#alfbutton {
     text-align: center;
-    list-style: none;
+    display: block;
+    width: 250px;
+    margin: 2px auto;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #333333;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #333333;
+    
+} 
+
+#chowbutton {
+    text-align: center;
+    display: block;
+    width: 250px;
+    margin: 2px auto;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #333333;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #333333;
+    margin-bottom: 2px;
+} 
+
+#partybutton {
+    text-align: center;
+    display: block;
+    width: 250px;
+    margin: 2px auto;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #333333;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #333333;
+    margin-bottom: 2px;
+} 
+
+ #recipelist {
+    padding: 16px 8px;
+    margin: 50px;
+    display: block;
+    padding: 20px;
 }
 
-#recipelist li {
-    display: inline;
-    padding: 20px;
+a:visited {
+    color: #333333;
+}
+
+a:hover {
+    color: cadetblue;
 }
 
 /* IMAGES */
