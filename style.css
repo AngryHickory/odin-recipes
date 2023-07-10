@@ -5,6 +5,10 @@
 body {
     background-color: rgb(243, 212, 170);
     font-family: "Courier New", monospace;
+    border-top: 5px double rgb(184, 157, 123);
+    border-right: 5px double rgb(184, 157, 123);
+    border-bottom: 5px double rgb(184, 157, 123);
+    border-left: 5px double rgb(184, 157, 123);
 }
 
 header {
@@ -12,7 +16,7 @@ header {
     padding: 2rem 0;
     background-color: hsl(29, 48%, 17%);
     border-bottom: 4px solid hsl(32, 80%, 16%);
-    color: hsla(34, 75%, 69%, 0.781);
+    color: rgb(184, 157, 123);
   }
 
 /* TEXT */
@@ -45,11 +49,12 @@ h2 {
     margin: 2px auto;
     color: #333333;
     padding: 2px 6px 2px 6px;
-    border-top: 1px solid #333333;
-    border-right: 1px solid #333333;
-    border-bottom: 1px solid #333333;
-    border-left: 1px solid #333333;
-    
+    border-top: 3px double #333333;
+    border-right: 3px double #333333;
+    border-bottom: 3px double #333333;
+    border-left: 3px double #333333;
+    margin-bottom: 10px;
+    border-color: rgb(184, 157, 123);
 } 
 
 #chowbutton {
@@ -59,11 +64,12 @@ h2 {
     margin: 2px auto;
     color: #333333;
     padding: 2px 6px 2px 6px;
-    border-top: 1px solid #333333;
-    border-right: 1px solid #333333;
-    border-bottom: 1px solid #333333;
-    border-left: 1px solid #333333;
-    margin-bottom: 2px;
+    border-top: 3px double #333333;
+    border-right: 3px double #333333;
+    border-bottom: 3px double #333333;
+    border-left: 3px double #333333;
+    margin-bottom: 10px;
+    border-color: rgb(184, 157, 123);
 } 
 
 #partybutton {
@@ -73,11 +79,12 @@ h2 {
     margin: 2px auto;
     color: #333333;
     padding: 2px 6px 2px 6px;
-    border-top: 1px solid #333333;
-    border-right: 1px solid #333333;
-    border-bottom: 1px solid #333333;
-    border-left: 1px solid #333333;
-    margin-bottom: 2px;
+    border-top: 3px double #333333;
+    border-right: 3px double #333333;
+    border-bottom: 3px double #333333;
+    border-left: 3px double #333333;
+    margin-bottom: 10px;
+    border-color: rgb(184, 157, 123);
 } 
 
  #recipelist {
@@ -87,12 +94,19 @@ h2 {
     padding: 20px;
 }
 
+a:link {
+    color: #333333;
+    text-decoration: none;
+}
+
 a:visited {
     color: #333333;
+    text-decoration: none;
 }
 
 a:hover {
     color: cadetblue;
+    text-decoration: none;
 }
 
 /* IMAGES */
