@@ -38,7 +38,6 @@ h1 {
 
 h2 {
     margin-bottom: 15px;
-    margin-top: 50px;
 }
 
 .header {
@@ -49,6 +48,13 @@ h2 {
 button {
     border: 4px solid rgb(184, 157, 123);
     border-radius: 12px;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
 }
 
 #alfbutton {
@@ -132,42 +138,4 @@ a:visited {
 a:hover {
     color: cadetblue;
     text-decoration: none;
-}
-
-/* IMAGES */
-
-#alfimg {
-    display: block;
-    margin: 0 auto;
-    height: auto;
-    width: 600px;
-}
-
-#chowimg {
-    display: block;
-    margin: 0 auto;
-    height: auto;
-    width: 700px;
-}
-
-#partyimg {
-    display: block;
-    margin: 0 auto;
-    height: auto;
-    width: 900px;
-}
-
-#cookbookimg {
-    display: block;
-    margin: 0 auto;
-    height: auto;
-    width: 1100px;
-    border: 4px solid rgb(184, 157, 123);
-    border-radius: 12px;
-    margin-bottom: 48px;
-}
-
-#seasoningimg {
-    display: block;
-    margin: 0 auto;
 }
